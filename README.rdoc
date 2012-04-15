@@ -1,0 +1,13 @@
+== C64HTML: A Commodore 64-themed boot / loader screen
+
+    * Originally written for an HTML-based C64 game remake
+    * -------------------------------------------------------
+    * http://schillmania.com/survivor/
+    * http://www.flickr.com/photos/schill/sets/72157628885315581/
+    * http://github.com/scottschiller/
+    *
+    * Uses SoundManager 2 for Flash / HTML5 Audio
+    * http://schillmania.com/projects/soundmanager2/
+    *
+    * Also includes C64 TrueType, "C64 User Mono" webfont.
+    * http://style64.org/c64-truetype/license

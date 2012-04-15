@@ -1,0 +1,84 @@
+body {
+ background: #000;
+}
+
+#c64 h1,
+#c64 h2,
+#c64 h3,
+#c64 p {
+ margin: 0.5em 0px;
+ padding: 0px;
+ font-size: 21px;
+ line-height: 30px;
+ font-weight: normal;
+ color: #a6a6ff;
+}
+
+#c64 h1,
+#c64 h2 {
+ text-align: center;
+}
+
+#c64 h3 {
+ margin-bottom: 0px;
+}
+
+#c64 p {
+ margin: 0px;
+ line-height: 22px;
+}
+
+#c64 .loading {
+ display: none;
+}
+
+#c64 #go_go_go {
+ /* inside joke. */
+ display: none;
+}
+
+@font-face {
+    /**
+     * http://style64.org/c64-truetype
+     * see license.txt in font directory for details.
+     */
+    font-family: "C64 User Mono";
+    src: url("font/C64_User_Mono_v1.0-STYLE.eot");
+}
+
+@font-face {
+    /**
+     * http://style64.org/c64-truetype
+     * see license.txt in font directory for details.
+     */
+    font-family: "C64 User Mono";
+    src: url("font/C64_User_Mono_v1.0-STYLE.ttf") format("truetype"), url("font/C64_User_Mono_v1.0-STYLE.woff") format("woff");
+}
+
+.c64 {
+ /* generic "use this font" class */
+ font-family: "C64 User Mono";
+}
+
+#c64 {
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ /* 640x480, before border etc. */
+ width: 820px;
+ height: 615px;
+ margin: -371px 0px 0px -474px;
+ background: #4444e7;
+ border: 64px solid #a6a6ff;
+ padding: 2px;
+ font-family: "C64 User Mono";
+ color: #fff;
+}
+
+#c64 #cursor {
+ width: 20px;
+ height: 20px;
+ /* a tiny animated .GIF */
+ background: transparent url(data:image/gif;base64,R0lGODlhDwAPAPAAAEBA4KCg/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQEKAD/ACwAAAAADwAPAEACDYSPqcvtD6OctNqLZwEAIfkEBSgAAAAsAAAAAA8ADwAAAg2Mj6nL7Q+jnLTai2cBADs=);
+ margin: 2px 0px 0px 2px;
+}

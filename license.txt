@@ -1,0 +1,21 @@
+/** @license
+ *
+ * Originally written for an HTML-based C64 game remake
+ * -------------------------------------------------------
+ * http://schillmania.com/survivor/
+ * http://www.flickr.com/photos/schill/sets/72157628885315581/
+ * http://github.com/scottschiller/
+ *
+ * Uses SoundManager 2 for Flash / HTML5 Audio
+ * http://schillmania.com/projects/soundmanager2/
+ *
+ * Also includes C64 TrueType, "C64 User Mono" webfont.
+ * http://style64.org/c64-truetype/license
+ *
+ *
+ * Code provided under the Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) License:
+ * http://creativecommons.org/licenses/by-nc/3.0/
+ *
+ * SoundManager 2 is provided under a BSD license. http://schillmania.com/projects/soundmanager2/
+ *
+ */
